@@ -116,8 +116,9 @@
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   padding: 16px 0 0 0;
+  align-items: center;
 }
 
 .menu {
@@ -128,6 +129,7 @@
   display: flex;
   list-style-type: none;
   align-items: center;
+  margin-left: 213px;
   font-family: Nunito Sans;
   font-size: 18px;
   font-weight: 600;
@@ -848,6 +850,7 @@ span {
     align-items: center;
     font-family: Nunito Sans;
     font-size: 14px;
+    margin-left: 50px;
     font-weight: 400;
     line-height: 20px;
   }
@@ -1074,6 +1077,9 @@ span {
   .button-cost {
     margin-top: 8px;
   }
+  .button-little {
+    display: none;
+  }
   .between {
     display: flex;
     width: 668px;
@@ -1140,6 +1146,7 @@ span {
   }
   .header {
     align-items: center;
+    justify-content: space-between;
   }
   .menu {
     display: block;
