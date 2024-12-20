@@ -13,21 +13,19 @@
     <div class="back">
         <header>
             <div class="container">
-                <section>
-                    <div class="header">
-                        <div><img src="images/logo.png" alt="логотип" class="pic"></div>
-                        <ul class="list">
-                            <li><a href="#glav" class="list__punkt">Главная</a></li>
-                            <li><a href="#pro" class="list__punkt">Про гида</a></li>
-                            <li><a href="#programm" class="list__punkt">Программа тура</a></li>
-                            <li><a href="#cost" class="list__punkt">Стоимость</a></li>
-                            <li><a href="#blog" class="list__punkt">Блог</a></li>
-                            <li><a href="404.html" class="list__punkt">Контакты</a></li>
-                            <button class="button button-little" type="button">Консультация</button>
-                        </ul>
-                        <div class="menu"><img src="images/menu.png" alt="меню"></div>
-                    </div>
-                </section>
+                <div class="header">
+                    <div><img src="images/logo.png" alt="логотип" class="pic"></div>
+                    <ul class="list">
+                        <li><a href="#glav" class="list__punkt">Главная</a></li>
+                        <li><a href="#pro" class="list__punkt">Про гида</a></li>
+                        <li><a href="#programm" class="list__punkt">Программа тура</a></li>
+                        <li><a href="#cost" class="list__punkt">Стоимость</a></li>
+                        <li><a href="#blog" class="list__punkt">Блог</a></li>
+                        <li><a href="404.html" class="list__punkt">Контакты</a></li>
+                    </ul>
+                    <button class="button button-little" type="button">Консультация</button>
+                    <div class="menu"><img src="images/menu.png" alt="меню"></div>
+                </div>
             </div>
         </header>
         <section id="glav">
@@ -141,7 +139,7 @@
                 <h3 class="caption">по версии отдыхающих</h3>
                 <h2 class="subtitle subtitle-pop">Популярные направления</h2>
                 <div class="destany">
-                    <a class="kart kart-1" href="#">
+                    <div class="kart kart-1">
                         <div class="content">
                             <div>
                                 <div class="title">Озеро возле гор</div>
@@ -151,8 +149,8 @@
                                 <button class="price" type="button">480 $</button>
                             </div>
                         </div>
-                    </a>
-                    <a class="kart kart-2" href="#">
+                    </div>
+                    <div class="kart kart-2">
                         <div class="content">
                             <div>
                                 <div class="title">Ночь в горах</div>
@@ -162,8 +160,8 @@
                                 <button class="price" type="button">500 $</button>
                             </div>
                         </div>
-                    </a>
-                    <a class="kart kart-3" href="#">
+                    </div>
+                    <div class="kart kart-3">
                         <div class="content">
                             <div>
                                 <div class="title">Йога в горах</div>
@@ -173,7 +171,7 @@
                                 <button class="price" type="button">230 $</button>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <button class = "button button-bottom" type="button">Рейтинг направлений</button>
             </div>
@@ -308,12 +306,12 @@
                     </div>
                 </div>
             </section>
-            <section class="sec-footer">
+            <div class="sec-footer">
                 <div class="container foot">
                     <a class="bottom bottom-white" href="#">ИП Константинопольский К.К., 2023</a>
                     <a class="bottom bottom-white" href="#">Политика обработки персональных данных</a>
                 </div>
-            </section>
+            </div>
     </footer>
 </body>
 </html>
