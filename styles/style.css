@@ -1337,6 +1337,9 @@ span {
     width: 81px;
     height: 48px;
   }
+    .back {
+    max-width: 374px;
+  }
   .deviz {
     font-size: 22px;
     line-height: 40px;
