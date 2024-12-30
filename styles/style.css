@@ -239,7 +239,7 @@
   transition: transform 0.2s ease;
   width: -moz-min-content;
   width: min-content;
-  margin: 40px 0;
+  margin: 40px 60px;
 }
 
 .backs:hover {
